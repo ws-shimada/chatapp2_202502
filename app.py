@@ -174,10 +174,9 @@ def chat_page():
         st.markdown(
             f"""
             会話が終了しました。\n\n
-            下のリンクをクリックして、アンケートページにアクセスしてください。\n\n
+            下のリンクをクリックし、引き続きアンケートに回答してください。\n\n
             アンケートページは別のタブで開きます。\n\n
-            アンケートページから、引き続きアンケートに回答してください。\n\n
-            <a href="{QUALTRICS_URL}" target="_blank">アンケートに進む</a>
+            <a href="{QUALTRICS_URL}" target="_blank">アンケートページに進む</a>
             """,
             unsafe_allow_html=True)
 
